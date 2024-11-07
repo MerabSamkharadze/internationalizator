@@ -9,7 +9,7 @@ export default function page() {
           {/* გამოსახულება */}
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img
-              src="https://via.placeholder.com/300"
+              src="https://www.advanceinnovationgroup.com/images/about-img/why-body-work.jpg"
               alt="About us"
               className="w-full h-full object-cover rounded-md shadow-lg"
             />

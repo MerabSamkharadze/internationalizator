@@ -85,7 +85,7 @@ export default function Header() {
               onClick={() => setIsOpen(!isOpen)}
               className="bg-gray-700 text-white p-2 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
-              {pathname === "/ka" ? "ქართული" : "English"}
+              {pathname.includes("/ka") ? "ქართული" : "English"}
             </button>
             {isOpen && (
               <div className="absolute bg-white text-black shadow-lg rounded-md mt-2 w-40 overflow-hidden">
